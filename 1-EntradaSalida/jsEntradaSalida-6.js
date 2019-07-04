@@ -3,10 +3,10 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {var numerouno;
- var numorodos;
+ var numerodos;
  numerouno=document.getElementById("numeroUno").value;
- numorodos=document.getElementById("numeroDos").value;
- alert("La suma es " numerouno);   
+ numerodos=document.getElementById("numeroDos").value;
+ alert("La suma es " + sumar(numerouno,numerodos);   
 
 
 }
