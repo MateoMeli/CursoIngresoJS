@@ -8,10 +8,11 @@ function mostrar()
     {
         alert("Mayor de edad");
     }
-    else
-    {
-        alert("Menor de edad")
-    }
+        else
+        {
+            alert("Menor de edad");
+        }
+   
 //tomo la edad  
 
 

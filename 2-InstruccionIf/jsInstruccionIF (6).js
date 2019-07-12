@@ -9,13 +9,13 @@ function mostrar()
     {
         alert("Mayor");
     }
-    else if(edad > 13 && edad <= 18)
+    else if(edad < 13)
     {
-        alert("Adolescente");
+        alert("Menor");
     }
     else
     
-        alert("Menor");
+        alert("Adolescente");
     
     
 //tomo la edad  

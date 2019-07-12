@@ -3,13 +3,14 @@ function mostrar()
     var adolescente;
 
     edad = document.getElementById("edad").value;
-    edad = parseInt(edad);
-    adolescente = (edad >13) && (edad <=17); 
+    //edad = parseInt(edad);   
+      
 
-    if(adolescente)
+    if(edad <= 17 && edad >= 13)
     {
         alert("Adolescente");
     }
+   
 
 //tomo la edad  
 
