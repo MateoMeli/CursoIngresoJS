@@ -1,10 +1,8 @@
-function mostrar()
-{
-//tomo la edad  
+function mostrar() {
+    //tomo la edad  
     var laHora = document.getElementById('hora').value;
 
-    switch(laHora)
-    {
+    switch (laHora) {
         case "7":
         case "8":
         case "9":
@@ -12,7 +10,7 @@ function mostrar()
         case "11":
             alert("Es la mañana.");
             break;
-        
+
         case "0":
         case "1":
         case "2":
@@ -27,7 +25,7 @@ function mostrar()
         case "24":
             alert("Es de noche.");
             break;
-        
+
         case "12":
         case "13":
         case "14":
@@ -38,10 +36,10 @@ function mostrar()
         case "19":
             alert("Es la tarde.");
             break;
-        
+
         default:
             alert("La hora no existe.");
-            
+
     }
 
 

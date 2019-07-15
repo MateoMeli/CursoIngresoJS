@@ -1,12 +1,10 @@
-function mostrar()
-{
-//tomo la edad  
+function mostrar() {
+    //tomo la edad  
     var mesDelAño = document.getElementById('mes').value;
 
-    alert (mesDelAño);
+    alert(mesDelAño);
 
-    switch(mesDelAño)
-    {
+    switch (mesDelAño) {
         case "Enero":
         case "Febrero":
         case "Marzo":
@@ -26,7 +24,7 @@ function mostrar()
         case "Noviembre":
         case "Diciembre":
             alert("Ya pasamos el frio");
-            break;        
+            break;
     }
 
 
