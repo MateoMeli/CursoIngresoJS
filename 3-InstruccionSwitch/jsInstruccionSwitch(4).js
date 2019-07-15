@@ -18,7 +18,7 @@ function mostrar()
             alert("Este mes tiene 29 dias.");
             break;
         default:
-            alert("este mes tiene 30 dias.");
+            alert("Este mes tiene 30 dias.");
 
     }
         
