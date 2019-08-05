@@ -47,7 +47,7 @@ function mostrar() {
         {
             maximo=minimo=numero;
             letramax=letramin=letra;
-        }else if(numero)
+        }else if(numero);
 
 
 
