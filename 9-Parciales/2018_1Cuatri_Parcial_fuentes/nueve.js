@@ -49,12 +49,12 @@ function mostrar() {
         
         seguir = prompt("Quiere ingresar mas datos?");
     }
-    document.write("pares"+contpares);
-    document.write("marca del maximo"+marcamax);
-    document.write("peso maximo"+pesomax);
-    document.write("peso minimo"+pesomin);
-    document.write("menos cero"+ contmenoscero);
-    document.write("promedio pesos" + acumuladorpeso/contadorpeso);
+    document.write("La cantidad de temperaturas pares es: "+contpares + "<br>");
+    document.write("La marca del producto de maximo peso es: "+marcamax + "<br>");
+    document.write("El peso maximo es: "+pesomax + "<br>");
+    document.write("El peso minimo es: "+pesomin + "<br>");
+    document.write("La cantidad de temperaturas almacenadas bajo cero es: "+ contmenoscero + "<br>");
+    document.write("El promedio de los pesos es: " + acumuladorpeso/contadorpeso + "<br>");
     
 
 }

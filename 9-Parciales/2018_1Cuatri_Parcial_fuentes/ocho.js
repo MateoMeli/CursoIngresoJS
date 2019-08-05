@@ -62,19 +62,19 @@ function mostrar() {
 
         respuesta = prompt("Quiere ingresar mas datos?");
     }
-    document.write("La cantidad de pares es " + contadorpares);
+    document.write("La cantidad de pares es " + contadorpares + "<br>");
 
-    document.write("La cantidad de impares es " + contadorimpares);
+    document.write("La cantidad de impares es " + contadorimpares + "<br>");
 
-    document.write("La cantidad de ceros es " + contadorcero);
+    document.write("La cantidad de ceros es " + contadorcero + "<br>");
 
-    document.write("El promedio de los positivos es " + acumulador / contadorpositivos);
+    document.write("El promedio de los positivos es " + acumulador / contadorpositivos + "<br>");
 
-    document.write("La suma de los negativos es " + acumuladornegativos);
+    document.write("La suma de los negativos es " + acumuladornegativos + "<br>");
 
-    document.write("El numero maximo es " + maximo + " y la letra es " + letramax);
+    document.write("El numero maximo es " + maximo + " y la letra es " + letramax + "<br>");
 
-    document.write("El numero minimo es " + minimo + " y la letra es " + letramin);
+    document.write("El numero minimo es " + minimo + " y la letra es " + letramin + "<br>");
 }
 
 
