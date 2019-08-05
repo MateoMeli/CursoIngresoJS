@@ -12,6 +12,7 @@ function mostrar() {
     var minimo;
     var letramax;
     var letramin;
+    var contador = 0;
 
 
     while (respuesta == "s") {
@@ -43,16 +44,21 @@ function mostrar() {
             acumuladornegativos = acumuladornegativos + numero;
 
         }
-        if(respuesta=="s")
+        if(contador == 0)
         {
-            maximo=minimo=numero;
-            letramax=letramin=letra;
-        }else if(numero);
-
-
-
-
-
+            maximo=numero;
+            minimo=numero;
+            letramax=letra;
+            letramin=letra;}
+        if(numero > maximo){
+            maximo = numero;
+            letramax = letra;
+        }
+        if(numero < minimo){
+            minimo = numero;
+            letramin = letra;
+        }
+        contador ++;
 
         respuesta = prompt("Quiere ingresar mas datos?");
     }
@@ -69,74 +75,6 @@ function mostrar() {
     document.write("El numero maximo es " + maximo + " y la letra es " + letramax);
 
     document.write("El numero minimo es " + minimo + " y la letra es " + letramin);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
