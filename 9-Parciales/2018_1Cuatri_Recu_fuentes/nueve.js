@@ -10,6 +10,8 @@ function mostrar() {
     var contador = 0;
     var tempcero = 0;
     var acumpeso = 0;
+    var pesomaxmax;
+    var pesominmin;
 
     while (seguir == "s") {
         animal = prompt("Ingrese el animal:");
@@ -40,7 +42,17 @@ function mostrar() {
         }
         if(temperatura < 0){
             tempcero ++;
+            pesomaxmax = peso;
+            pesominmin = peso;
+
         }
+        if(temperatura < 0 && peso < pesominmin){
+            pesominmin = peso;
+        }
+        if(temperatura < 0 && peso > pesomaxmax){
+            pesomaxmax = peso;
+        }
+
         acumpeso = peso + acumpeso;
         contador ++;
         seguir = prompt("Quiere ingresar mas datos?");
@@ -49,6 +61,7 @@ function mostrar() {
     document.write("El nombre del animal mas pesado es: " + animalmax + " y la temperatura de su habitat es de: " + tempmax + "°C." + "<br>");
     document.write("La cantidad de animales que viven a menos de 0°C es: " + tempcero + "<br>");
     document.write("El promedio de todos los pesos ingresados es: " + acumpeso/contador + "<br>");
+    document.write("El peso maximo de los animales que viven a menos de 0°C es: " + pesomaxmax + " y el minimo: " + pesominmin);
     
     // f) El peso máximo y el mínimo de todos los animales cuyas temperaturas sean bajo cero.
 
